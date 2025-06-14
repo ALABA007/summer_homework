@@ -30,35 +30,35 @@ So long lives this, and this gives life to thee.`,
       },
       {
         title: "Because I could not stop for Death",
-        text: `Because I could not stop for Death â
-He kindly stopped for me â
-The Carriage held but just Ourselves â
+        text: `Because I could not stop for Death –
+He kindly stopped for me –
+The Carriage held but just Ourselves –
 And Immortality.
 
-We slowly drove â He knew no haste
+We slowly drove – He knew no haste
 And I had put away
 My labor and my leisure too,
-For His Civility â
+For His Civility –
 
 We passed the School, where Children strove
-At Recess â in the Ring â
-We passed the Fields of Gazing Grain â
-We passed the Setting Sun â
+At Recess – in the Ring –
+We passed the Fields of Gazing Grain –
+We passed the Setting Sun –
 
-Or rather â He passed us â
-The Dews drew quivering and chill â
-For only Gossamer, my Gown â
-My Tippet â only Tulle â
+Or rather – He passed us –
+The Dews drew quivering and chill –
+For only Gossamer, my Gown –
+My Tippet – only Tulle –
 
 We paused before a House that seemed
-A Swelling of the Ground â
-The Roof was scarcely visible â
-The Cornice â in the Ground â
+A Swelling of the Ground –
+The Roof was scarcely visible –
+The Cornice – in the Ground –
 
-Since then â 'tis Centuries â and yet
+Since then – 'tis Centuries – and yet
 Feels shorter than the Day
 I first surmised the Horses' Heads
-Were toward Eternity â`,
+Were toward Eternity –`,
         author: "Emily Dickinson",
         category: "english",
         analysis: `<analysis>
@@ -94,7 +94,7 @@ I doubted if I should ever be back.
 
 I shall be telling this with a sigh
 Somewhere ages and ages hence:
-Two roads diverged in a wood, and Iâ
+Two roads diverged in a wood, and I—
 I took the one less traveled by,
 And that has made all the difference.`,
         author: "Robert Frost",
@@ -113,7 +113,7 @@ And that has made all the difference.`,
       {
         title: "Ozymandias",
         text: `I met a traveller from an antique land,
-Who saidâ"Two vast and trunkless legs of stone
+Who said—"Two vast and trunkless legs of stone
 Stand in the desert. . . . Near them, on the sand,
 Half sunk a shattered visage lies, whose frown,
 And wrinkled lip, and sneer of cold command,
@@ -179,79 +179,79 @@ Rage, rage against the dying of the light.`,
 </analysis>`
       },
       {
-        title: "éå¤æ",
-        text: `åºåææåï¼
-çæ¯å°ä¸éã
-ä¸¾å¤´æææï¼
-ä½å¤´ææä¹¡ã`,
-        author: "æç½",
+        title: "静夜思",
+        text: `床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。`,
+        author: "李白",
         category: "chinese",
         analysis: `<analysis>
-  <theme>æä¹¡ä¹æï¼æ¸¸å­å¯¹æä¹¡çæ·±åæå¿µ</theme>
-  <structure>äºè¨ç»å¥ï¼å¹³èµ·å¹³æ¶ï¼éµèä¸º"åãéãä¹¡"</structure>
+  <theme>思乡之情，游子对故乡的深切怀念</theme>
+  <structure>五言绝句，平起平收，韵脚为"光、霜、乡"</structure>
   <literary_devices>
-    <imagery>æåå¦éçè§è§æè±¡</imagery>
-    <contrast>ä¸¾å¤´ä¸ä½å¤´çå¨ä½å¯¹æ¯</contrast>
-    <symbolism>ææè±¡å¾æä¹¡ææ</symbolism>
+    <imagery>月光如霜的视觉意象</imagery>
+    <contrast>举头与低头的动作对比</contrast>
+    <symbolism>明月象征思乡情怀</symbolism>
   </literary_devices>
-  <interpretation>è¯äººéè¿æåå¤æçå°æåçæåï¼è¡¨è¾¾äºèº«å¨å¼ä¹¡å¯¹æä¹¡çæ·±åæå¿µãå¨è¯è¯­è¨ç®æ´ï¼æå¢æ·±è¿ï¼ä½ç°äºæç½è¯æ­çæ¸æ°èªç¶é£æ ¼ãæåæ¢æ¯å¼åæä¹¡çåªä»ï¼ä¹æ¯è¿æ¥æä¹¡ççº½å¸¦ã</interpretation>
+  <interpretation>诗人通过描写夜晚看到月光的感受，表达了身在异乡对故乡的深切思念。全诗语言简洁，意境深远，体现了李白诗歌的清新自然风格。月光既是引发思乡的媒介，也是连接故乡的纽带。</interpretation>
 </analysis>`
       },
       {
-        title: "æ¥æ",
-        text: `æ¥ç ä¸è§æï¼
-å¤å¤é»å¼é¸ã
-å¤æ¥é£é¨å£°ï¼
-è±è½ç¥å¤å°ã`,
-        author: "å­æµ©ç¶",
+        title: "春晓",
+        text: `春眠不觉晓，
+处处闻啼鸟。
+夜来风雨声，
+花落知多少。`,
+        author: "孟浩然",
         category: "chinese",
         analysis: `<analysis>
-  <theme>æ¥æ¥æ¯è±¡ï¼å¯¹èªç¶çç»è»æå</theme>
-  <structure>äºè¨ç»å¥ï¼è¯­è¨æ´ç´ èªç¶</structure>
+  <theme>春日景象，对自然的细腻感受</theme>
+  <structure>五言绝句，语言朴素自然</structure>
   <literary_devices>
-    <auditory_imagery>é¸å¼å£°ãé£é¨å£°çå¬è§æå</auditory_imagery>
-    <questioning>è®¾é®å¥å¢å¼ºè¡¨è¾¾ææ</questioning>
-    <contrast>ç¡ç çå®é¸ä¸èªç¶ççå¨åå</contrast>
+    <auditory_imagery>鸟啼声、风雨声的听觉描写</auditory_imagery>
+    <questioning>设问句增强表达效果</questioning>
+    <contrast>睡眠的安逸与自然的生动变化</contrast>
   </literary_devices>
-  <interpretation>è¯äººæç»äºæ¥æ¥æ¸æ¨çç¾å¥½æ¯è±¡ï¼éè¿å¬è§æåå±ç°æ¥å¤©ççæºååãæåä¸å¥ççé®è¡¨è¾¾äºå¯¹æ¥è±åé¶çæ·¡æ·¡ææï¼ä½ç°äºè¯äººå¯¹èªç¶çææåå¯¹æ¶åæµéçææ¨ã</interpretation>
+  <interpretation>诗人描绘了春日清晨的美好景象，通过听觉感受展现春天的生机勃勃。最后一句的疑问表达了对春花凋零的淡淡惋惜，体现了诗人对自然的敏感和对时光流逝的感慨。</interpretation>
 </analysis>`
       },
       {
-        title: "ç»é¹³éæ¥¼",
-        text: `ç½æ¥ä¾å±±å°½ï¼
-é»æ²³å¥æµ·æµã
-æ¬²ç©·åéç®ï¼
-æ´ä¸ä¸å±æ¥¼ã`,
-        author: "çä¹æ¶£",
+        title: "登鹳雀楼",
+        text: `白日依山尽，
+黄河入海流。
+欲穷千里目，
+更上一层楼。`,
+        author: "王之涣",
         category: "chinese",
         analysis: `<analysis>
-  <theme>å²çæèï¼ç§¯æè¿åçäººçæåº¦</theme>
-  <structure>äºè¨ç»å¥ï¼å¯¹ä»å·¥æ´ï¼å¯ææ·±å»</structure>
+  <theme>哲理思考，积极进取的人生态度</theme>
+  <structure>五言绝句，对仗工整，寓意深刻</structure>
   <literary_devices>
-    <visual_imagery>ç½æ¥ãé»æ²³çå£®ä¸½æ¯è±¡</visual_imagery>
-    <metaphor>ç»æ¥¼å»æäººçè¿å</metaphor>
-    <parallelism>åä¸¤å¥å¯¹ä»ææ¯ï¼åä¸¤å¥å¯¹ä»ææ</parallelism>
+    <visual_imagery>白日、黄河的壮丽景象</visual_imagery>
+    <metaphor>登楼喻指人生进取</metaphor>
+    <parallelism>前两句对仗描景，后两句对仗抒情</parallelism>
   </literary_devices>
-  <interpretation>è¯äººéè¿æåç»æ¥¼æè§çå£®ä¸½æ¯è²ï¼éè¿°äº"è¦æ³çå¾æ´è¿ï¼å°±è¦ç«å¾æ´é«"çäººçå²çãå¨è¯èåæ¯ãææãè®®è®ºäºä¸ä½ï¼è¡¨è¾¾äºç§¯æåä¸çè¿åç²¾ç¥åå¼éçè¸æã</interpretation>
+  <interpretation>诗人通过描写登楼所见的壮丽景色，阐述了"要想看得更远，就要站得更高"的人生哲理。全诗融写景、抒情、议论于一体，表达了积极向上的进取精神和开阔的胸怀。</interpretation>
 </analysis>`
       },
       {
-        title: "ç¸æ",
-        text: `çº¢è±çåå½ï¼
-æ¥æ¥åå æã
-æ¿åå¤éæ·ï¼
-æ­¤ç©æç¸æã`,
-        author: "çç»´",
+        title: "相思",
+        text: `红豆生南国，
+春来发几枝。
+愿君多采撷，
+此物最相思。`,
+        author: "王维",
         category: "chinese",
         analysis: `<analysis>
-  <theme>ç¸æä¹æï¼å¯¹åäººçæ·±åæå¿µ</theme>
-  <structure>äºè¨ç»å¥ï¼è¯­è¨å«èï¼ææ·±æé¿</structure>
+  <theme>相思之情，对友人的深切怀念</theme>
+  <structure>五言绝句，语言含蓄，情深意长</structure>
   <literary_devices>
-    <symbolism>çº¢è±è±¡å¾ç¸æä¹æ</symbolism>
-    <personification>å¯¹çº¢è±çæäººåå¤ç</personification>
-    <euphemism>å«èè¡¨è¾¾æå¿µä¹æ</euphemism>
+    <symbolism>红豆象征相思之情</symbolism>
+    <personification>对红豆的拟人化处理</personification>
+    <euphemism>含蓄表达思念之情</euphemism>
   </literary_devices>
-  <interpretation>è¯äººåçº¢è±è¿ä¸å·æè±¡å¾æä¹çäºç©ï¼è¡¨è¾¾äºå¯¹è¿æ¹åäººçæ·±åæå¿µãå¨è¯è¯­è¨æ´ç´ ï¼ä½ææçæï¼ä½ç°äºçç»´è¯æ­æ¸æ·¡å«èçèºæ¯ç¹è²ãçº¢è±æä¸ºææçè½½ä½åå¯æã</interpretation>
+  <interpretation>诗人借红豆这一具有象征意义的事物，表达了对远方友人的深切思念。全诗语言朴素，但情感真挚，体现了王维诗歌清淡含蓄的艺术特色。红豆成为情感的载体和寄托。</interpretation>
 </analysis>`
       },
 
