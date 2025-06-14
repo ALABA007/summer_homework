@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poetry Appreciation - Classic Poetry Collection</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Poetry Appreciation</h1>
+    <div class="subtitle">Discover the Beauty of Classic Poetry</div>
+
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number" id="totalPoems">10</div>
+        <div class="stat-label">Poems</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="totalAuthors">10</div>
+        <div class="stat-label">Authors</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="favoritesCount">0</div>
+        <div class="stat-label">Favorites</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="search-container">
+      <input type="text" class="search-box" id="searchBox" placeholder="Search poems or authors..."
+        oninput="searchPoems()">
+      <button class="control-btn" id="randomBtn" onclick="selectRandomPoem()"><i class="fas fa-dice"></i>
+        Random</button>
+    </div>
+
+    <div class="filter-container">
+      <button class="filter-btn active" onclick="filterPoems('all')">All Poems</button>
+      <button class="filter-btn" onclick="filterPoems('english')">English Poems</button>
+      <button class="filter-btn" onclick="filterPoems('chinese')">Chinese Poems</button>
+    </div>
+
+    <div class="button-list" id="buttonList"></div>
+
+    <div class="controls">
+      <button class="control-btn" id="readBtn" onclick="readAloud()"><i class="fas fa-volume-up"></i> Read
+        Aloud</button>
+      <button class="control-btn" id="toggleModeBtn" onclick="toggleDarkMode()"><i class="fas fa-moon"></i> Dark
+        Mode</button>
+      <button class="control-btn" id="shareBtn" onclick="sharePoem()"><i class="fas fa-share"></i> Share</button>
+      <button class="control-btn" id="downloadBtn" onclick="downloadPoem()"><i class="fas fa-download"></i>
+        Download</button>
+    </div>
+
+    <div class="poem-display">
+      <div class="poem-text" id="poemText">
+        <div class="poem-actions">
+          <button class="action-btn" id="favoriteBtn" title="Add to Favorites" onclick="toggleFavorite()"><i
+              class="fas fa-heart"></i></button>
+          <button class="action-btn" id="copyBtn" title="Copy Poem" onclick="copyPoem()"><i
+              class="fas fa-copy"></i></button>
+        </div>
+        <pre>Select a poem to view its content here.</pre>
+      </div>
+      <div class="poem-info" id="poemInfo">
+        <strong>Author Info & Analysis</strong><br><br>
+        You'll see details about the poet and a short analysis of the selected poem.
+      </div>
+    </div>
+
+    <div class="favorites-section" id="favoritesSection" style="display: none;">
+      <h3>Your Favorite Poems</h3>
+      <div id="favoritesList"></div>
+    </div>
+  </div>
+
+  <footer>
+    Crafted with ð for lovers of classic poetry | Explore the timeless beauty of words
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
